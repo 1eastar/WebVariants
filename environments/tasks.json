@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "task_e5",
+    "difficulty": "easy",
+    "instruction": "Delete the Injectable Administration template.",
+    "verify": "real-tasks/task_e5.py",
+    "label": "e5",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=e5"
+  },
+  {
+    "id": "task_e6",
+    "difficulty": "easy",
+    "instruction": "Add a 'Fall-Risk' tag to Helen Zhao's chart.",
+    "verify": "real-tasks/task_e6.py",
+    "label": "e6",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=e6"
+  },
+  {
+    "id": "task_e15",
+    "difficulty": "easy",
+    "instruction": "Remove the 'Immunizations-Due' tag from Aaliyah Washington.",
+    "verify": "real-tasks/task_e15.py",
+    "label": "e15",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=e15"
+  },
+  {
+    "id": "task_e20",
+    "difficulty": "easy",
+    "instruction": "Remove the 'Pediatric-Parent' tag from Priya Sharma.",
+    "verify": "real-tasks/task_e20.py",
+    "label": "e20",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=e20"
+  },
+  {
+    "id": "task_m1",
+    "difficulty": "medium",
+    "instruction": "Add 'Acute Sinusitis' with ICD-10 code J01.90 to James Fitzgerald's problem list.",
+    "verify": "real-tasks/task_m1.py",
+    "label": "m1",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=m1"
+  },
+  {
+    "id": "task_m2",
+    "difficulty": "medium",
+    "instruction": "Record an influenza vaccine for Emily Nakamura, administered intramuscularly in the left deltoid.",
+    "verify": "real-tasks/task_m2.py",
+    "label": "m2",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=m2"
+  },
+  {
+    "id": "task_m10",
+    "difficulty": "medium",
+    "instruction": "Set the Follow-Up appointment type to use the Hypertension Follow-Up template.",
+    "verify": "real-tasks/task_m10.py",
+    "label": "m10",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=m10"
+  },
+  {
+    "id": "task_m15",
+    "difficulty": "medium",
+    "instruction": "Change Marcus Johnson's 'Chronic Low Back Pain' problem title to 'Chronic Low Back Pain with Lumbar Disc Degeneration'.",
+    "verify": "real-tasks/task_m15.py",
+    "label": "m15",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=m15"
+  },
+  {
+    "id": "task_h2",
+    "difficulty": "hard",
+    "instruction": "Create a visit note for James Fitzgerald using the Pre-Op H&P format, Pre-Op Evaluation category, and the Pre-Operative Evaluation template, then sign it.",
+    "verify": "real-tasks/task_h2.py",
+    "label": "h2",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h2"
+  },
+  {
+    "id": "task_h4",
+    "difficulty": "hard",
+    "instruction": "Record Robert Henderson's second Shingrix dose: GlaxoSmithKline, intramuscular in the left deltoid, dose 2 in the series, with a 5-year recall.",
+    "verify": "real-tasks/task_h4.py",
+    "label": "h4",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h4"
+  },
+  {
+    "id": "task_h10",
+    "difficulty": "hard",
+    "instruction": "Create a visit note for Robert Henderson using the Diabetes Management template, then add a Care Plan block.",
+    "verify": "real-tasks/task_h10.py",
+    "label": "h10",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h10"
+  },
+  {
+    "id": "task_h11",
+    "difficulty": "hard",
+    "instruction": "Complete David Kowalski's draft note: add a Physical Exam block, add a Review of Systems block, add CPT code 99214 for billing, then sign it.",
+    "verify": "real-tasks/task_h11.py",
+    "label": "h11",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h11"
+  },
+  {
+    "id": "task_h16",
+    "difficulty": "hard",
+    "instruction": "Set the Urgent Same-Day appointment type to use the E* Problem-Focused Visit template, and change the COVID Vaccine appointment format to Non-Visit Note.",
+    "verify": "real-tasks/task_h16.py",
+    "label": "h16",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h16"
+  },
+  {
+    "id": "task_h34",
+    "difficulty": "hard",
+    "instruction": "Add the tag 'Care-Coordination' to every patient who has at least one signed visit note with the 'Chronic-Care' document tag.",
+    "verify": "real-tasks/task_h34.py",
+    "label": "h34",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h34"
+  },
+  {
+    "id": "task_h38",
+    "difficulty": "hard",
+    "instruction": "Configure the Procedure appointment type: set its template to the same one used by Office Visit, set its category to match Follow-Up's category, and change its format to H&P Note (Single Column).",
+    "verify": "real-tasks/task_h38.py",
+    "label": "h38",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h38"
+  },
+  {
+    "id": "task_h42",
+    "difficulty": "hard",
+    "instruction": "Create a follow-up visit note for the patient whose most recent visit note was categorized as an Urgent Visit. Use the Follow-Up category and the Hypertension Follow-Up template, then sign the note.",
+    "verify": "real-tasks/task_h42.py",
+    "label": "h42",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h42"
+  },
+  {
+    "id": "task_h46",
+    "difficulty": "hard",
+    "instruction": "Add the tag 'Active-Plan' to every patient who has at least one active care plan in the system.",
+    "verify": "real-tasks/task_h46.py",
+    "label": "h46",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h46"
+  },
+  {
+    "id": "task_h48",
+    "difficulty": "hard",
+    "instruction": "Find the patient born in the 1940s who has Medicare insurance, then record a Pneumococcal 20-valent (PCV20) vaccine for them: manufactured by Pfizer, intramuscular in the left deltoid, dose 1, with a 5-year recall, funded by Medicare.",
+    "verify": "real-tasks/task_h48.py",
+    "label": "h48",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h48"
+  },
+  {
+    "id": "task_h57",
+    "difficulty": "hard",
+    "instruction": "Create a visit note category called 'Mental Health Visit' with MIPS tracking enabled. Then create a visit note for Emily Nakamura using that category and the Telehealth Follow-Up template, add an HPI block and a Psychological Status block, add billing code 99214 with description 'Office visit, established, moderate complexity', and sign the note.",
+    "verify": "real-tasks/task_h57.py",
+    "label": "h57",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h57"
+  },
+  {
+    "id": "task_h59",
+    "difficulty": "hard",
+    "instruction": "Find the template with billing code 99395, then create a visit note for the youngest adult patient (18 or older) using that template and the Annual Exam category.",
+    "verify": "real-tasks/task_h59.py",
+    "label": "h59",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h59"
+  },
+  {
+    "id": "task_h65",
+    "difficulty": "hard",
+    "instruction": "For each patient who has both Active and Controlled problems on their chart, add the tag 'Mixed-Status'. For patients who have active problems but none with Controlled status, add the tag 'All-Active' instead.",
+    "verify": "real-tasks/task_h65.py",
+    "label": "h65",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h65"
+  },
+  {
+    "id": "task_h68",
+    "difficulty": "hard",
+    "instruction": "For every appointment type that currently uses the Complete H&P Note format, change its format to H&P Note (Single Column). Leave all other appointment types unchanged.",
+    "verify": "real-tasks/task_h68.py",
+    "label": "h68",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h68"
+  },
+  {
+    "id": "task_h73",
+    "difficulty": "hard",
+    "instruction": "Change the default visit note format to Pre-Op H&P, create a new category called 'Pre-Surgical Screening' with MIPS tracking enabled, and configure the Procedure appointment type to use that new category and the Pre-Operative Evaluation template.",
+    "verify": "real-tasks/task_h73.py",
+    "label": "h73",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h73"
+  },
+  {
+    "id": "task_h79",
+    "difficulty": "hard",
+    "instruction": "Create a new category called 'Comprehensive Review' with MIPS tracking enabled. Create a new template called 'Full Review' with HPI, ROS, Physical Exam, and Assessment sections, and billing code 99215 with description 'Office visit, established, high complexity'. Then configure the Annual Exam appointment type to use the new template and new category. Finally, create a visit note for Helen Zhao using the new template and new category, and sign it.",
+    "verify": "real-tasks/task_h79.py",
+    "label": "h79",
+    "service": "elation-clinical-records",
+    "verify_endpoint": "/api/verify?label=h79"
+  },
+  {
+    "id": "task_e1",
+    "difficulty": "easy",
+    "instruction": "Mark Janet Okonkwo's message about her blood sugar as read.",
+    "verify": "real-tasks/task_e1.py",
+    "label": "e1",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=e1"
+  },
+  {
+    "id": "task_e6",
+    "difficulty": "easy",
+    "instruction": "Remove the 'New Patient' tag from Emily Thompson.",
+    "verify": "real-tasks/task_e6.py",
+    "label": "e6",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=e6"
+  },
+  {
+    "id": "task_e9",
+    "difficulty": "easy",
+    "instruction": "Change Dr. Chen's unread letter alert timeframe to 72 hours.",
+    "verify": "real-tasks/task_e9.py",
+    "label": "e9",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=e9"
+  },
+  {
+    "id": "task_e12",
+    "difficulty": "easy",
+    "instruction": "Remove the East Bay Clinic from the practice locations.",
+    "verify": "real-tasks/task_e12.py",
+    "label": "e12",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=e12"
+  },
+  {
+    "id": "task_m1",
+    "difficulty": "medium",
+    "instruction": "Send a Passport invitation to Anthony Petrov.",
+    "verify": "real-tasks/task_m1.py",
+    "label": "m1",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=m1"
+  },
+  {
+    "id": "task_m10",
+    "difficulty": "medium",
+    "instruction": "Remove Front Desk from Dr. Torres's General Question message routing.",
+    "verify": "real-tasks/task_m10.py",
+    "label": "m10",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=m10"
+  },
+  {
+    "id": "task_m12",
+    "difficulty": "medium",
+    "instruction": "Disable Stephanie Rivera's Passport account.",
+    "verify": "real-tasks/task_m12.py",
+    "label": "m12",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=m12"
+  },
+  {
+    "id": "task_m18",
+    "difficulty": "medium",
+    "instruction": "Add an emergency contact for Kevin Adebayo: Grace Adebayo, phone (650) 555-1122, wife.",
+    "verify": "real-tasks/task_m18.py",
+    "label": "m18",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=m18"
+  },
+  {
+    "id": "task_h3",
+    "difficulty": "hard",
+    "instruction": "Send Passport invitations to all patients who haven't been invited yet and are assigned to Dr. Kim.",
+    "verify": "real-tasks/task_h3.py",
+    "label": "h3",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h3"
+  },
+  {
+    "id": "task_h29",
+    "difficulty": "hard",
+    "instruction": "In Jessica Okafor's message routing, replace the Front Desk group with the Clinical Team group in every category where Front Desk currently appears.",
+    "verify": "real-tasks/task_h29.py",
+    "label": "h29",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h29"
+  },
+  {
+    "id": "task_h33",
+    "difficulty": "hard",
+    "instruction": "Find the patient who was the very first to register for Passport and update their emergency contact's phone number to (415) 555-9999.",
+    "verify": "real-tasks/task_h33.py",
+    "label": "h33",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h33"
+  },
+  {
+    "id": "task_h40",
+    "difficulty": "hard",
+    "instruction": "Change the notification timeframe to '1 week' for every provider in the practice whose current timeframe is set to '24 hours'.",
+    "verify": "real-tasks/task_h40.py",
+    "label": "h40",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h40"
+  },
+  {
+    "id": "task_h41",
+    "difficulty": "hard",
+    "instruction": "Check the visit summaries and find which patient was referred to podiatry for neuropathy screening. Schedule an in-person follow-up appointment for that patient with Dr. Chen on April 15, 2026 at 2:00 PM.",
+    "verify": "real-tasks/task_h41.py",
+    "label": "h41",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h41"
+  },
+  {
+    "id": "task_h42",
+    "difficulty": "hard",
+    "instruction": "Find the patient who takes both Donepezil and Memantine. Update their emergency contact's phone number to (415) 555-9900 and change their Passport sharing level to Level 4.",
+    "verify": "real-tasks/task_h42.py",
+    "label": "h42",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h42"
+  },
+  {
+    "id": "task_h43",
+    "difficulty": "hard",
+    "instruction": "For each patient tagged 'Geriatric' whose Passport sharing level is below Level 3, update it to Level 3.",
+    "verify": "real-tasks/task_h43.py",
+    "label": "h43",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h43"
+  },
+  {
+    "id": "task_h45",
+    "difficulty": "hard",
+    "instruction": "The patient being managed for congestive heart failure has a virtual appointment coming up. Cancel it and schedule a new in-person visit with the same provider for the same date and time.",
+    "verify": "real-tasks/task_h45.py",
+    "label": "h45",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h45"
+  },
+  {
+    "id": "task_h46",
+    "difficulty": "hard",
+    "instruction": "Go through each provider's message routing and add the Nurses group to Prescription Refill for any provider that doesn't already have it.",
+    "verify": "real-tasks/task_h46.py",
+    "label": "h46",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h46"
+  },
+  {
+    "id": "task_h47",
+    "difficulty": "hard",
+    "instruction": "There's a patient with a pending Passport invitation who is tagged 'Pediatric'. Resend their invitation and add 'Telehealth Preferred' to their profile.",
+    "verify": "real-tasks/task_h47.py",
+    "label": "h47",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h47"
+  },
+  {
+    "id": "task_h51",
+    "difficulty": "hard",
+    "instruction": "Change the telehealth chat mode to 'Everyone in Waiting Room' and activate virtual visits for Amanda Wright with instructions: 'Please join at https://meet.bayareafamilymed.com/wright'.",
+    "verify": "real-tasks/task_h51.py",
+    "label": "h51",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h51"
+  },
+  {
+    "id": "task_h52",
+    "difficulty": "hard",
+    "instruction": "Find the conversation where a patient mentions ankle swelling. Reply reassuring them it can be normal but to monitor for sudden changes, then add 'High Risk' to that patient's profile.",
+    "verify": "real-tasks/task_h52.py",
+    "label": "h52",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h52"
+  },
+  {
+    "id": "task_h61",
+    "difficulty": "hard",
+    "instruction": "Find every patient who has Penicillin listed as an allergy in their clinical profile. Add the 'High Risk' tag to any of them who don't already have it.",
+    "verify": "real-tasks/task_h61.py",
+    "label": "h61",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h61"
+  },
+  {
+    "id": "task_h64",
+    "difficulty": "hard",
+    "instruction": "For each patient tagged 'Chronic Care', check their Passport sharing level. If it's below 3, upgrade it to 3. If it's already 3 or above, add the 'VIP' tag to their profile if they don't have it yet.",
+    "verify": "real-tasks/task_h64.py",
+    "label": "h64",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h64"
+  },
+  {
+    "id": "task_h74",
+    "difficulty": "hard",
+    "instruction": "Update Dr. Torres's message routing: add the Clinical Team group to every category, and remove the Front Desk group from every category where it currently appears.",
+    "verify": "real-tasks/task_h74.py",
+    "label": "h74",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h74"
+  },
+  {
+    "id": "task_h75",
+    "difficulty": "hard",
+    "instruction": "Find the patient whose MRI brain scan came back normal in 2025. Change their Passport sharing level to Level 3 and add the 'High Risk' tag to their profile.",
+    "verify": "real-tasks/task_h75.py",
+    "label": "h75",
+    "service": "elation-patient-communication",
+    "verify_endpoint": "/api/verify?label=h75"
+  },
+  {
+    "id": "task_e2",
+    "difficulty": "easy",
+    "instruction": "Reopen the Analytics Dashboard epic.",
+    "verify": "real-tasks/task_e2.py",
+    "label": "e2",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=e2"
+  },
+  {
+    "id": "task_e7",
+    "difficulty": "easy",
+    "instruction": "Remove the 'needs-discussion' label from the real-time collaborative editing issue.",
+    "verify": "real-tasks/task_e7.py",
+    "label": "e7",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=e7"
+  },
+  {
+    "id": "task_e10",
+    "difficulty": "easy",
+    "instruction": "Set a due date of April 30, 2026 for the webhook support issue.",
+    "verify": "real-tasks/task_e10.py",
+    "label": "e10",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=e10"
+  },
+  {
+    "id": "task_e12",
+    "difficulty": "easy",
+    "instruction": "Mark the todo about the lazy loading for images issue as done.",
+    "verify": "real-tasks/task_e12.py",
+    "label": "e12",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=e12"
+  },
+  {
+    "id": "task_m7",
+    "difficulty": "medium",
+    "instruction": "Disable automatic scheduling and roll-over on the Sprint Cadence.",
+    "verify": "real-tasks/task_m7.py",
+    "label": "m7",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=m7"
+  },
+  {
+    "id": "task_m11",
+    "difficulty": "medium",
+    "instruction": "Move the CSP headers issue to the v4.1 milestone and change its iteration to Sprint 27.",
+    "verify": "real-tasks/task_m11.py",
+    "label": "m11",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=m11"
+  },
+  {
+    "id": "task_m19",
+    "difficulty": "medium",
+    "instruction": "Remove Aisha Mohammed from the component library documentation issue and assign Nina Kowalski instead.",
+    "verify": "real-tasks/task_m19.py",
+    "label": "m19",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=m19"
+  },
+  {
+    "id": "task_m20",
+    "difficulty": "medium",
+    "instruction": "Rename the 'technical-debt' label to 'tech-debt' and set its description to 'Legacy code requiring refactoring'.",
+    "verify": "real-tasks/task_m20.py",
+    "label": "m20",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=m20"
+  },
+  {
+    "id": "task_h5",
+    "difficulty": "hard",
+    "instruction": "Reassign all of James O'Brien's open issues to Yuki Tanaka.",
+    "verify": "real-tasks/task_h5.py",
+    "label": "h5",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h5"
+  },
+  {
+    "id": "task_h7",
+    "difficulty": "hard",
+    "instruction": "Remove all labels from the error boundary fallback UI issue and replace them with type::bug and priority::medium.",
+    "verify": "real-tasks/task_h7.py",
+    "label": "h7",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h7"
+  },
+  {
+    "id": "task_h10",
+    "difficulty": "hard",
+    "instruction": "Delete the Sprint Board and create a new board called 'Release Board' with lists for the v4.0, v4.1, and v4.2 milestones.",
+    "verify": "real-tasks/task_h10.py",
+    "label": "h10",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h10"
+  },
+  {
+    "id": "task_h15",
+    "difficulty": "hard",
+    "instruction": "Delete all labels in the 'component' scope.",
+    "verify": "real-tasks/task_h15.py",
+    "label": "h15",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h15"
+  },
+  {
+    "id": "task_h19",
+    "difficulty": "hard",
+    "instruction": "Close the Caching Layer Implementation epic and reassign its issues to the Database Optimization epic.",
+    "verify": "real-tasks/task_h19.py",
+    "label": "h19",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h19"
+  },
+  {
+    "id": "task_h23",
+    "difficulty": "hard",
+    "instruction": "Create a board called 'Security Overview' with lists for the priority::critical, priority::high, and security labels.",
+    "verify": "real-tasks/task_h23.py",
+    "label": "h23",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h23"
+  },
+  {
+    "id": "task_h24",
+    "difficulty": "hard",
+    "instruction": "Delete all time entries from the user settings page migration issue and set its time estimate to 20 hours.",
+    "verify": "real-tasks/task_h24.py",
+    "label": "h24",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h24"
+  },
+  {
+    "id": "task_h34",
+    "difficulty": "hard",
+    "instruction": "Close both issues in the Documentation Overhaul epic, remove their milestone assignments, and close the epic itself.",
+    "verify": "real-tasks/task_h34.py",
+    "label": "h34",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h34"
+  },
+  {
+    "id": "task_h36",
+    "difficulty": "hard",
+    "instruction": "Reopen the two closed issues from Sprint 24 and move them to Sprint 28.",
+    "verify": "real-tasks/task_h36.py",
+    "label": "h36",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h36"
+  },
+  {
+    "id": "task_h45",
+    "difficulty": "hard",
+    "instruction": "The Platform Redesign epic has two child epics. Close the one that has fewer open issues.",
+    "verify": "real-tasks/task_h45.py",
+    "label": "h45",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h45"
+  },
+  {
+    "id": "task_h48",
+    "difficulty": "hard",
+    "instruction": "Add the 'breaking-change' label to every open issue in the API v3 Migration epic and remove any existing workflow-scoped labels from those issues.",
+    "verify": "real-tasks/task_h48.py",
+    "label": "h48",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h48"
+  },
+  {
+    "id": "task_h55",
+    "difficulty": "hard",
+    "instruction": "Change the color of the 'security' label to black (#000000) and update its description to 'Critical security work'. Then set the weight to 13 on every open issue in the Security Hardening epic that has this label.",
+    "verify": "real-tasks/task_h55.py",
+    "label": "h55",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h55"
+  },
+  {
+    "id": "task_h58",
+    "difficulty": "hard",
+    "instruction": "The Performance Initiative epic has two child epics. For the child epic with more open issues, set the weight of every issue in it to 13. For the other child epic, close all its open issues.",
+    "verify": "real-tasks/task_h58.py",
+    "label": "h58",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h58"
+  },
+  {
+    "id": "task_h67",
+    "difficulty": "hard",
+    "instruction": "Delete all time entries from the GraphQL gateway issue, add a single new entry of 16 hours with summary 'Complete rewrite estimate', and set its time estimate to 40 hours.",
+    "verify": "real-tasks/task_h67.py",
+    "label": "h67",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h67"
+  },
+  {
+    "id": "task_h72",
+    "difficulty": "hard",
+    "instruction": "Close all open issues that have the 'good-first-issue' label, but first add a time entry of 30 minutes with summary 'Resolved during onboarding' to each.",
+    "verify": "real-tasks/task_h72.py",
+    "label": "h72",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h72"
+  },
+  {
+    "id": "task_h82",
+    "difficulty": "hard",
+    "instruction": "The Security Hardening epic has one open issue with no assignees. Find it, assign Chen Wei to it, add the 'priority::high' label, and move it to Sprint 27.",
+    "verify": "real-tasks/task_h82.py",
+    "label": "h82",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h82"
+  },
+  {
+    "id": "task_h84",
+    "difficulty": "hard",
+    "instruction": "Two issues in the Database Optimization epic are in the current sprint. For the one about analyzing slow queries, log 3 hours of time with summary 'Index optimization review'. For the one about keyset pagination, increase its weight to 8.",
+    "verify": "real-tasks/task_h84.py",
+    "label": "h84",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h84"
+  },
+  {
+    "id": "task_h92",
+    "difficulty": "hard",
+    "instruction": "On the issue about migrating user settings to React, log 8 hours with summary 'Form validation and API integration testing'. Then set its health status to 'at risk' and change its weight to 13.",
+    "verify": "real-tasks/task_h92.py",
+    "label": "h92",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h92"
+  },
+  {
+    "id": "task_h97",
+    "difficulty": "hard",
+    "instruction": "For all open issues in the API v3 Migration epic, replace the 'component::api' label with 'component::backend'.",
+    "verify": "real-tasks/task_h97.py",
+    "label": "h97",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h97"
+  },
+  {
+    "id": "task_h100",
+    "difficulty": "hard",
+    "instruction": "Create a new label called 'in-review' with color #7b68ee. Create a new board called 'Review Board' with a list for that label. Then add the 'in-review' label to the GraphQL gateway issue and the dark mode issue.",
+    "verify": "real-tasks/task_h100.py",
+    "label": "h100",
+    "service": "gitlab-plan-and-track",
+    "verify_endpoint": "/api/verify?label=h100"
+  },
+  {
+    "id": "task_e5",
+    "difficulty": "easy",
+    "instruction": "Turn off conversation view.",
+    "verify": "real-tasks/task_e5.py",
+    "label": "e5",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=e5"
+  },
+  {
+    "id": "task_e12",
+    "difficulty": "easy",
+    "instruction": "Turn off hover actions.",
+    "verify": "real-tasks/task_e12.py",
+    "label": "e12",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=e12"
+  },
+  {
+    "id": "task_e17",
+    "difficulty": "easy",
+    "instruction": "Switch to compact display density.",
+    "verify": "real-tasks/task_e17.py",
+    "label": "e17",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=e17"
+  },
+  {
+    "id": "task_e18",
+    "difficulty": "easy",
+    "instruction": "Turn off keyboard shortcuts.",
+    "verify": "real-tasks/task_e18.py",
+    "label": "e18",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=e18"
+  },
+  {
+    "id": "task_m5",
+    "difficulty": "medium",
+    "instruction": "Remove the Action Required label from the contract review email by James O'Brien.",
+    "verify": "real-tasks/task_m5.py",
+    "label": "m5",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=m5"
+  },
+  {
+    "id": "task_m14",
+    "difficulty": "medium",
+    "instruction": "Add the Projects label to the office renovation email from Daniel Thompson.",
+    "verify": "real-tasks/task_m14.py",
+    "label": "m14",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=m14"
+  },
+  {
+    "id": "task_m19",
+    "difficulty": "medium",
+    "instruction": "Set auto-advance to go to the previous (older) conversation.",
+    "verify": "real-tasks/task_m19.py",
+    "label": "m19",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=m19"
+  },
+  {
+    "id": "task_m20",
+    "difficulty": "medium",
+    "instruction": "Change button labels to show text instead of icons.",
+    "verify": "real-tasks/task_m20.py",
+    "label": "m20",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=m20"
+  },
+  {
+    "id": "task_h1",
+    "difficulty": "hard",
+    "instruction": "Create a label called 'Q1 Priority' nested under Work, then apply it to Sarah Chen's Q1 Product Roadmap Review email.",
+    "verify": "real-tasks/task_h1.py",
+    "label": "h1",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=h1"
+  },
+  {
+    "id": "task_h2",
+    "difficulty": "hard",
+    "instruction": "Update the Datadog alerts filter to also archive matching emails and forward them to priya.sharma@cloudnine.dev instead of nate.patel@devops.tools.",
+    "verify": "real-tasks/task_h2.py",
+    "label": "h2",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=h2"
+  },
+  {
+    "id": "task_h6",
+    "difficulty": "hard",
+    "instruction": "Change the star on the United Airlines deal email to a green star, move it from Promotions to Primary, and apply the Action Required label.",
+    "verify": "real-tasks/task_h6.py",
+    "label": "h6",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=h6"
+  },
+  {
+    "id": "task_h20",
+    "difficulty": "hard",
+    "instruction": "Delete the Receipts label and add the Finance label to all emails that previously had Receipts applied.",
+    "verify": "real-tasks/task_h20.py",
+    "label": "h20",
+    "service": "gmail",
+    "verify_endpoint": "/api/verify?label=h20"
+  },
+  {
+    "id": "task_e3",
+    "difficulty": "easy",
+    "instruction": "Remove the expired delegate.",
+    "verify": "real-tasks/task_e3.py",
+    "label": "e3",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=e3"
+  },
+  {
+    "id": "task_e5",
+    "difficulty": "easy",
+    "instruction": "Unlink YouTube.",
+    "verify": "real-tasks/task_e5.py",
+    "label": "e5",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=e5"
+  },
+  {
+    "id": "task_e15",
+    "difficulty": "easy",
+    "instruction": "Make your phone number visible to everyone.",
+    "verify": "real-tasks/task_e15.py",
+    "label": "e15",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=e15"
+  },
+  {
+    "id": "task_e17",
+    "difficulty": "easy",
+    "instruction": "Turn off linked service update notifications.",
+    "verify": "real-tasks/task_e17.py",
+    "label": "e17",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=e17"
+  },
+  {
+    "id": "task_m2",
+    "difficulty": "medium",
+    "instruction": "Create a new contact named Jordan Wells with email jordan.wells@wellsfargo.com and company Wells Fargo.",
+    "verify": "real-tasks/task_m2.py",
+    "label": "m2",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=m2"
+  },
+  {
+    "id": "task_m6",
+    "difficulty": "medium",
+    "instruction": "Turn off all four notification types.",
+    "verify": "real-tasks/task_m6.py",
+    "label": "m6",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=m6"
+  },
+  {
+    "id": "task_m18",
+    "difficulty": "medium",
+    "instruction": "Move Tina Marshall to your main contacts and delete the Chloe Bennett other contact.",
+    "verify": "real-tasks/task_m18.py",
+    "label": "m18",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=m18"
+  },
+  {
+    "id": "task_m20",
+    "difficulty": "medium",
+    "instruction": "Switch to security key for two-factor authentication and turn off remember password.",
+    "verify": "real-tasks/task_m20.py",
+    "label": "m20",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=m20"
+  },
+  {
+    "id": "task_h6",
+    "difficulty": "hard",
+    "instruction": "Set all three visibility options to 'Nobody', disable activity tracking, and turn off all four notification types.",
+    "verify": "real-tasks/task_h6.py",
+    "label": "h6",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h6"
+  },
+  {
+    "id": "task_h11",
+    "difficulty": "hard",
+    "instruction": "Set up maximum account security: switch the two-factor method to security key, turn off remember password and auto sign-in, set all three visibility options to 'Nobody', and disable activity tracking.",
+    "verify": "real-tasks/task_h11.py",
+    "label": "h11",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h11"
+  },
+  {
+    "id": "task_h22",
+    "difficulty": "hard",
+    "instruction": "The Engineering Manager at TechCorp is listed as one of your delegates. Remove her delegation and unstar her contact.",
+    "verify": "real-tasks/task_h22.py",
+    "label": "h22",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h22"
+  },
+  {
+    "id": "task_h27",
+    "difficulty": "hard",
+    "instruction": "Add the VIP Clients label to every starred contact who has the Work label but doesn't already have VIP Clients.",
+    "verify": "real-tasks/task_h27.py",
+    "label": "h27",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h27"
+  },
+  {
+    "id": "task_h28",
+    "difficulty": "hard",
+    "instruction": "Delete both contacts who work at EuroDesign, dismiss the EuroDesign merge suggestion, and delete the Travel Contacts label.",
+    "verify": "real-tasks/task_h28.py",
+    "label": "h28",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h28"
+  },
+  {
+    "id": "task_h30",
+    "difficulty": "hard",
+    "instruction": "There are two EuroDesign contacts. Delete the one who leads UX Research and star the other.",
+    "verify": "real-tasks/task_h30.py",
+    "label": "h30",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h30"
+  },
+  {
+    "id": "task_h36",
+    "difficulty": "hard",
+    "instruction": "Replace the Healthcare label with Emergency for all contacts that have it: remove Healthcare, add Emergency if missing, then delete the Healthcare label entirely.",
+    "verify": "real-tasks/task_h36.py",
+    "label": "h36",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h36"
+  },
+  {
+    "id": "task_h37",
+    "difficulty": "hard",
+    "instruction": "Move the auto-saved contact Alex Rivera to your main contacts, then set their company to 'Notion' and job title to 'Product Manager', and add the Work label.",
+    "verify": "real-tasks/task_h37.py",
+    "label": "h37",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h37"
+  },
+  {
+    "id": "task_h41",
+    "difficulty": "hard",
+    "instruction": "Your VP of Product contact works at a specific company. Remove any delegate whose email domain matches that company, then add the auto-saved HR contact from that same domain as a new delegate with the name 'TechCorp HR Team'.",
+    "verify": "real-tasks/task_h41.py",
+    "label": "h41",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h41"
+  },
+  {
+    "id": "task_h42",
+    "difficulty": "hard",
+    "instruction": "For every contact whose address is in a country other than the United States, remove the Work label if they have it and add Travel Contacts if they don't already have it.",
+    "verify": "real-tasks/task_h42.py",
+    "label": "h42",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h42"
+  },
+  {
+    "id": "task_h50",
+    "difficulty": "hard",
+    "instruction": "Add the Emergency label to every contact who is currently listed as a delegate (active, pending, or expired). Then remove all delegates whose status is not 'active'.",
+    "verify": "real-tasks/task_h50.py",
+    "label": "h50",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h50"
+  },
+  {
+    "id": "task_h53",
+    "difficulty": "hard",
+    "instruction": "Merge the CloudNine duplicate contacts, then remove any delegate whose email is at the cloudnine.dev domain.",
+    "verify": "real-tasks/task_h53.py",
+    "label": "h53",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h53"
+  },
+  {
+    "id": "task_h54",
+    "difficulty": "hard",
+    "instruction": "Find your financial advisor (the CFO in your contacts) and update his secondary email to 'david.kim@financeplus.com'. Also add the Emergency label to his contact entry.",
+    "verify": "real-tasks/task_h54.py",
+    "label": "h54",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h54"
+  },
+  {
+    "id": "task_h57",
+    "difficulty": "hard",
+    "instruction": "Delete every contact whose company name contains 'Design', dismiss any merge suggestions that involve those deleted contacts, and delete any auto-saved contacts from those companies' email domains.",
+    "verify": "real-tasks/task_h57.py",
+    "label": "h57",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h57"
+  },
+  {
+    "id": "task_h63",
+    "difficulty": "hard",
+    "instruction": "Find the contact whose notes mention having your 'spare key for emergencies'. Star them, add the Family label, and change their phone number to '+1 (415) 555-9911'.",
+    "verify": "real-tasks/task_h63.py",
+    "label": "h63",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h63"
+  },
+  {
+    "id": "task_h77",
+    "difficulty": "hard",
+    "instruction": "Create a new contact named 'Hiro Tanaka' with email 'hiro.tanaka@gmail.com'. Then look up which labels Yuki Tanaka has and add those same labels to Hiro's contact.",
+    "verify": "real-tasks/task_h77.py",
+    "label": "h77",
+    "service": "gmail-accounts-and-contacts",
+    "verify_endpoint": "/api/verify?label=h77"
+  },
+  {
+    "id": "task_e4",
+    "difficulty": "easy",
+    "instruction": "Remove the Meta ML Engineer Intern from your saved jobs.",
+    "verify": "real-tasks/task_e4.py",
+    "label": "e4",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=e4"
+  },
+  {
+    "id": "task_e11",
+    "difficulty": "easy",
+    "instruction": "Register for the Google tech talk on building scalable ML systems.",
+    "verify": "real-tasks/task_e11.py",
+    "label": "e11",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=e11"
+  },
+  {
+    "id": "task_e15",
+    "difficulty": "easy",
+    "instruction": "Bookmark Kevin O'Brien's post about preparing for FAANG interviews.",
+    "verify": "real-tasks/task_e15.py",
+    "label": "e15",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=e15"
+  },
+  {
+    "id": "task_e16",
+    "difficulty": "easy",
+    "instruction": "Sign up for the Salesforce Futureforce cloud careers session.",
+    "verify": "real-tasks/task_e16.py",
+    "label": "e16",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=e16"
+  },
+  {
+    "id": "task_m2",
+    "difficulty": "medium",
+    "instruction": "Add 'Machine Learning Engineer' to your preferred job roles in career interests and save.",
+    "verify": "real-tasks/task_m2.py",
+    "label": "m2",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=m2"
+  },
+  {
+    "id": "task_m5",
+    "difficulty": "medium",
+    "instruction": "Schedule a resume review appointment for March 12, 2026 at 11:00 AM, in person.",
+    "verify": "real-tasks/task_m5.py",
+    "label": "m5",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=m5"
+  },
+  {
+    "id": "task_m6",
+    "difficulty": "medium",
+    "instruction": "Change your career community to 'Science & Research' in career interests and save.",
+    "verify": "real-tasks/task_m6.py",
+    "label": "m6",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=m6"
+  },
+  {
+    "id": "task_m8",
+    "difficulty": "medium",
+    "instruction": "Remove 'Finance' from your preferred industries and add 'Consulting' instead in career interests. Save your changes.",
+    "verify": "real-tasks/task_m8.py",
+    "label": "m8",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=m8"
+  },
+  {
+    "id": "task_h4",
+    "difficulty": "hard",
+    "instruction": "Unsave any closed jobs from your saved list.",
+    "verify": "real-tasks/task_h4.py",
+    "label": "h4",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h4"
+  },
+  {
+    "id": "task_h13",
+    "difficulty": "hard",
+    "instruction": "Create a feed post for your school audience about forming a study group for case interviews, then RSVP to the McKinsey campus presentation.",
+    "verify": "real-tasks/task_h13.py",
+    "label": "h13",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h13"
+  },
+  {
+    "id": "task_h17",
+    "difficulty": "hard",
+    "instruction": "Follow all employers that have posted jobs with the 'AI/ML' label.",
+    "verify": "real-tasks/task_h17.py",
+    "label": "h17",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h17"
+  },
+  {
+    "id": "task_h22",
+    "difficulty": "hard",
+    "instruction": "Like the feed post written by the student who answered the question about transitioning from liberal arts to a tech career.",
+    "verify": "real-tasks/task_h22.py",
+    "label": "h22",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h22"
+  },
+  {
+    "id": "task_h26",
+    "difficulty": "hard",
+    "instruction": "Save all active internships posted by private companies, and follow any private companies you aren't already following.",
+    "verify": "real-tasks/task_h26.py",
+    "label": "h26",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h26"
+  },
+  {
+    "id": "task_h28",
+    "difficulty": "hard",
+    "instruction": "Find the Q&A question about Google's interview process. Mark the non-anonymous answer as helpful, then bookmark Google's post in the feed.",
+    "verify": "real-tasks/task_h28.py",
+    "label": "h28",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h28"
+  },
+  {
+    "id": "task_h31",
+    "difficulty": "hard",
+    "instruction": "Find the student who wrote about their first week at Stripe in the feed. Leave a comment on their post asking about the onboarding process, then save any Stripe jobs you haven't saved yet.",
+    "verify": "real-tasks/task_h31.py",
+    "label": "h31",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h31"
+  },
+  {
+    "id": "task_h34",
+    "difficulty": "hard",
+    "instruction": "Review your saved jobs and unsave any whose employer is not in the Technology or Artificial Intelligence industry.",
+    "verify": "real-tasks/task_h34.py",
+    "label": "h34",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h34"
+  },
+  {
+    "id": "task_h38",
+    "difficulty": "hard",
+    "instruction": "Find the student who posted career fair tips in the feed. Go to Q&A and mark their answer as helpful, then leave a comment on their feed post thanking them for the advice.",
+    "verify": "real-tasks/task_h38.py",
+    "label": "h38",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h38"
+  },
+  {
+    "id": "task_h44",
+    "difficulty": "hard",
+    "instruction": "Save all active full-time positions and unsave any internships currently in your saved list.",
+    "verify": "real-tasks/task_h44.py",
+    "label": "h44",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h44"
+  },
+  {
+    "id": "task_h48",
+    "difficulty": "hard",
+    "instruction": "One of your messages mentions a phone screen invitation. Find that employer, then RSVP to their upcoming event and save any of their active jobs you haven't saved yet.",
+    "verify": "real-tasks/task_h48.py",
+    "label": "h48",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h48"
+  },
+  {
+    "id": "task_h50",
+    "difficulty": "hard",
+    "instruction": "Two students posted about interview preparation in the feed — one shared a FAANG study plan and another shared takeaways from a PM interview book. Comment on the FAANG study plan post asking about their timeline, and bookmark the PM book post.",
+    "verify": "real-tasks/task_h50.py",
+    "label": "h50",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h50"
+  },
+  {
+    "id": "task_h72",
+    "difficulty": "hard",
+    "instruction": "Schedule a personal statement review with Maria Rodriguez for March 28, 2026 at 11:00 AM in person, then post a Q&A question asking about the timeline for grad school applications in computer science.",
+    "verify": "real-tasks/task_h72.py",
+    "label": "h72",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h72"
+  },
+  {
+    "id": "task_h81",
+    "difficulty": "hard",
+    "instruction": "Your most recent unread message says you're a top-15% match for a position. Read that message, then save all of that employer's active jobs you haven't saved, RSVP to their upcoming tech talk, and bookmark their feed post.",
+    "verify": "real-tasks/task_h81.py",
+    "label": "h81",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h81"
+  },
+  {
+    "id": "task_h91",
+    "difficulty": "hard",
+    "instruction": "Schedule a general career advising appointment with Dr. Patricia Williams for March 19, 2026 at 1:00 PM virtually, then add a comment to your completed January internship planning appointment noting that you followed her advice about applying broadly.",
+    "verify": "real-tasks/task_h91.py",
+    "label": "h91",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h91"
+  },
+  {
+    "id": "task_h92",
+    "difficulty": "hard",
+    "instruction": "Find the employer whose affiliated companies include GitHub. Save all their active jobs you haven't saved, leave a comment on their Imagine Cup post expressing interest, and add 'Cloud Engineer' to your preferred roles in career interests. Save your changes.",
+    "verify": "real-tasks/task_h92.py",
+    "label": "h92",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h92"
+  },
+  {
+    "id": "task_h101",
+    "difficulty": "hard",
+    "instruction": "Find the employer affiliated with 'Twitch'. Save all their active jobs you haven't saved and like their feed post about AWS re:Invent.",
+    "verify": "real-tasks/task_h101.py",
+    "label": "h101",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h101"
+  },
+  {
+    "id": "task_h103",
+    "difficulty": "hard",
+    "instruction": "Your only approved upcoming appointment is with a career counselor. Schedule a Professional Branding appointment with that same counselor for March 18, 2026 at 2:00 PM, virtually.",
+    "verify": "real-tasks/task_h103.py",
+    "label": "h103",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h103"
+  },
+  {
+    "id": "task_h105",
+    "difficulty": "hard",
+    "instruction": "Find the second-most-viewed question in Q&A. It has two answers — mark the one with fewer helpful votes as helpful.",
+    "verify": "real-tasks/task_h105.py",
+    "label": "h105",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h105"
+  },
+  {
+    "id": "task_h116",
+    "difficulty": "hard",
+    "instruction": "Submit an answer to the Q&A question about MBB GPA importance, then schedule a career change guidance appointment for March 10, 2026 at 3:00 PM, in person.",
+    "verify": "real-tasks/task_h116.py",
+    "label": "h116",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h116"
+  },
+  {
+    "id": "task_h118",
+    "difficulty": "hard",
+    "instruction": "Read all your unread messages, then leave a comment on the feed post from the employer who sent you the most recent unread message.",
+    "verify": "real-tasks/task_h118.py",
+    "label": "h118",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h118"
+  },
+  {
+    "id": "task_h121",
+    "difficulty": "hard",
+    "instruction": "Check your profile visibility. If it's set to 'Community', change it to 'Employers'. Then find the employer whose testimonial mentions 'AI safety' and save both their active jobs.",
+    "verify": "real-tasks/task_h121.py",
+    "label": "h121",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h121"
+  },
+  {
+    "id": "task_h123",
+    "difficulty": "hard",
+    "instruction": "An employer's alumni said they 'grew more in my first year than I expected'. Save their active job with the most applicants and comment on their feed post about the expanded internship program.",
+    "verify": "real-tasks/task_h123.py",
+    "label": "h123",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h123"
+  },
+  {
+    "id": "task_h126",
+    "difficulty": "hard",
+    "instruction": "Read your most recent unread message. RSVP to that sender's upcoming event and save all their active jobs you haven't already saved.",
+    "verify": "real-tasks/task_h126.py",
+    "label": "h126",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h126"
+  },
+  {
+    "id": "task_h131",
+    "difficulty": "hard",
+    "instruction": "The only unanswered Q&A question is about finance recruiting timelines. Answer it with your advice, then follow both employers in the Finance industry.",
+    "verify": "real-tasks/task_h131.py",
+    "label": "h131",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h131"
+  },
+  {
+    "id": "task_h139",
+    "difficulty": "hard",
+    "instruction": "Update your career interests: remove 'UX Designer' from your roles, add 'DevOps Engineer' and 'Cloud Engineer'. Change your career community to 'Engineering'. Then save both active jobs from the only employer in the Artificial Intelligence industry.",
+    "verify": "real-tasks/task_h139.py",
+    "label": "h139",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h139"
+  },
+  {
+    "id": "task_h141",
+    "difficulty": "hard",
+    "instruction": "Some of your saved jobs are from employers you haven't followed yet. Find and follow each of those employers.",
+    "verify": "real-tasks/task_h141.py",
+    "label": "h141",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h141"
+  },
+  {
+    "id": "task_h150",
+    "difficulty": "hard",
+    "instruction": "Add the city where Palantir is headquartered to your preferred locations in career interests. Then add 'Cybersecurity' to your industries, and save Palantir's active internship.",
+    "verify": "real-tasks/task_h150.py",
+    "label": "h150",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h150"
+  },
+  {
+    "id": "task_h152",
+    "difficulty": "hard",
+    "instruction": "Pivot your career interests toward AI safety research: change your career community to 'Science & Research', add 'Research Scientist' to your roles, and add 'Research' to your job functions. Then save both active jobs from the AI safety company you already follow.",
+    "verify": "real-tasks/task_h152.py",
+    "label": "h152",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h152"
+  },
+  {
+    "id": "task_h153",
+    "difficulty": "hard",
+    "instruction": "Find the employer that lists 'GitHub' as an affiliated company. Save both of their active internships and bookmark their feed post.",
+    "verify": "real-tasks/task_h153.py",
+    "label": "h153",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h153"
+  },
+  {
+    "id": "task_h156",
+    "difficulty": "hard",
+    "instruction": "The highest-paid active internship on Handshake by hourly rate is from an AI company you already follow. RSVP to that employer's upcoming event. Then like the feed post from the student who argues you don't need FAANG for a great tech career.",
+    "verify": "real-tasks/task_h156.py",
+    "label": "h156",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h156"
+  },
+  {
+    "id": "task_h158",
+    "difficulty": "hard",
+    "instruction": "Cancel your case interview prep appointment. On the same date it was scheduled, schedule a Salary Negotiation appointment instead at the earliest available time, by phone. Then add a comment to your remaining requested appointment explaining you'd like to focus on system design questions.",
+    "verify": "real-tasks/task_h158.py",
+    "label": "h158",
+    "service": "handshake-career-exploration",
+    "verify_endpoint": "/api/verify?label=h158"
+  },
+  {
+    "id": "task_e7",
+    "difficulty": "easy",
+    "instruction": "Set the default home view to My Issues.",
+    "verify": "real-tasks/task_e7.py",
+    "label": "e7",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=e7"
+  },
+  {
+    "id": "task_e10",
+    "difficulty": "easy",
+    "instruction": "Increase the font size to Large.",
+    "verify": "real-tasks/task_e10.py",
+    "label": "e10",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=e10"
+  },
+  {
+    "id": "task_e18",
+    "difficulty": "easy",
+    "instruction": "Turn off the open in desktop app setting.",
+    "verify": "real-tasks/task_e18.py",
+    "label": "e18",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=e18"
+  },
+  {
+    "id": "task_e20",
+    "difficulty": "easy",
+    "instruction": "Stop showing full names and use usernames instead.",
+    "verify": "real-tasks/task_e20.py",
+    "label": "e20",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=e20"
+  },
+  {
+    "id": "task_m3",
+    "difficulty": "medium",
+    "instruction": "Change the email to 'alex.morgan@newcompany.com'.",
+    "verify": "real-tasks/task_m3.py",
+    "label": "m3",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=m3"
+  },
+  {
+    "id": "task_m4",
+    "difficulty": "medium",
+    "instruction": "Create a new API key labeled 'Staging Environment'.",
+    "verify": "real-tasks/task_m4.py",
+    "label": "m4",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=m4"
+  },
+  {
+    "id": "task_m6",
+    "difficulty": "medium",
+    "instruction": "Turn off email notifications for status changes but turn on notifications for comments.",
+    "verify": "real-tasks/task_m6.py",
+    "label": "m6",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=m6"
+  },
+  {
+    "id": "task_m12",
+    "difficulty": "medium",
+    "instruction": "Disconnect the GitLab account.",
+    "verify": "real-tasks/task_m12.py",
+    "label": "m12",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=m12"
+  },
+  {
+    "id": "task_h8",
+    "difficulty": "hard",
+    "instruction": "Unsubscribe from all communication notifications (changelogs, DPA updates, and product updates) and disable the email notification channel.",
+    "verify": "real-tasks/task_h8.py",
+    "label": "h8",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h8"
+  },
+  {
+    "id": "task_h14",
+    "difficulty": "hard",
+    "instruction": "Turn on auto-assign for both issue creation and moving to started, and switch the home view to Current cycle.",
+    "verify": "real-tasks/task_h14.py",
+    "label": "h14",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h14"
+  },
+  {
+    "id": "task_h17",
+    "difficulty": "hard",
+    "instruction": "Enable all notification types for desktop notifications, including cycle updates.",
+    "verify": "real-tasks/task_h17.py",
+    "label": "h17",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h17"
+  },
+  {
+    "id": "task_h35",
+    "difficulty": "hard",
+    "instruction": "Disconnect the connected account that uses a different email domain than your Linear account, then set the default home view to Favorited Views.",
+    "verify": "real-tasks/task_h35.py",
+    "label": "h35",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h35"
+  },
+  {
+    "id": "task_h36",
+    "difficulty": "hard",
+    "instruction": "Revoke all API keys except the one that was used most recently, then revoke all OAuth apps that have only read permissions.",
+    "verify": "real-tasks/task_h36.py",
+    "label": "h36",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h36"
+  },
+  {
+    "id": "task_h39",
+    "difficulty": "hard",
+    "instruction": "Set up maximum notifications: enable all four channels, turn on every notification type for each channel, and subscribe to all three communication notifications.",
+    "verify": "real-tasks/task_h39.py",
+    "label": "h39",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h39"
+  },
+  {
+    "id": "task_h42",
+    "difficulty": "hard",
+    "instruction": "Create a new API key named after the authorized application that has the most permissions, then revoke that application.",
+    "verify": "real-tasks/task_h42.py",
+    "label": "h42",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h42"
+  },
+  {
+    "id": "task_h48",
+    "difficulty": "hard",
+    "instruction": "Disconnect the connected account with the fewest permission scopes, revoke the authorized app that was last accessed the longest ago, and create a new API key labeled with the name of the provider you disconnected.",
+    "verify": "real-tasks/task_h48.py",
+    "label": "h48",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h48"
+  },
+  {
+    "id": "task_h50",
+    "difficulty": "hard",
+    "instruction": "Revoke all API keys that were created before 2026, then create two new API keys: one called 'Primary' and one called 'Backup'.",
+    "verify": "real-tasks/task_h50.py",
+    "label": "h50",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h50"
+  },
+  {
+    "id": "task_h54",
+    "difficulty": "hard",
+    "instruction": "Revoke all API keys that have no expiration date, create a new key called 'Replacement', and enable both auto-assign settings.",
+    "verify": "real-tasks/task_h54.py",
+    "label": "h54",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h54"
+  },
+  {
+    "id": "task_h55",
+    "difficulty": "hard",
+    "instruction": "Revoke all sessions that are not from the same city as your current session.",
+    "verify": "real-tasks/task_h55.py",
+    "label": "h55",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h55"
+  },
+  {
+    "id": "task_h59",
+    "difficulty": "hard",
+    "instruction": "Revoke all sessions from tablet devices, disconnect all connected accounts that have more than two permission scopes, and turn off all three communication notification subscriptions.",
+    "verify": "real-tasks/task_h59.py",
+    "label": "h59",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h59"
+  },
+  {
+    "id": "task_h64",
+    "difficulty": "hard",
+    "instruction": "Revoke the non-current session running the browser with the lowest version number, then create an API key labeled with that session's city name.",
+    "verify": "real-tasks/task_h64.py",
+    "label": "h64",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h64"
+  },
+  {
+    "id": "task_h67",
+    "difficulty": "hard",
+    "instruction": "Disconnect the connected account that was linked on the same calendar date as your Linear account was created, then set the default home view to the option that comes last alphabetically.",
+    "verify": "real-tasks/task_h67.py",
+    "label": "h67",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h67"
+  },
+  {
+    "id": "task_h71",
+    "difficulty": "hard",
+    "instruction": "Among the enabled notification channels, set the one with the most notification types currently turned on to mentions-only, and set the one with the fewest types turned on to all-on. Leave other channels unchanged.",
+    "verify": "real-tasks/task_h71.py",
+    "label": "h71",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h71"
+  },
+  {
+    "id": "task_h73",
+    "difficulty": "hard",
+    "instruction": "Disconnect all connected accounts whose account name is an email address, then revoke the authorized application whose name contains a period.",
+    "verify": "real-tasks/task_h73.py",
+    "label": "h73",
+    "service": "linear-account-settings",
+    "verify_endpoint": "/api/verify?label=h73"
+  },
+  {
+    "id": "task_e11",
+    "difficulty": "easy",
+    "instruction": "Disable direct deposit on my debit card.",
+    "verify": "real-tasks/task_e11.py",
+    "label": "e11",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=e11"
+  },
+  {
+    "id": "task_e12",
+    "difficulty": "easy",
+    "instruction": "Save the Nike cashback offer.",
+    "verify": "real-tasks/task_e12.py",
+    "label": "e12",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=e12"
+  },
+  {
+    "id": "task_e14",
+    "difficulty": "easy",
+    "instruction": "Remove the Spotify offer from my saved list.",
+    "verify": "real-tasks/task_e14.py",
+    "label": "e14",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=e14"
+  },
+  {
+    "id": "task_e15",
+    "difficulty": "easy",
+    "instruction": "Turn off autopay on my PayPal Credit.",
+    "verify": "real-tasks/task_e15.py",
+    "label": "e15",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=e15"
+  },
+  {
+    "id": "task_m4",
+    "difficulty": "medium",
+    "instruction": "Load $200 into my PayPal balance from Bank of America.",
+    "verify": "real-tasks/task_m4.py",
+    "label": "m4",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=m4"
+  },
+  {
+    "id": "task_m11",
+    "difficulty": "medium",
+    "instruction": "Invest $50 in Ethereum.",
+    "verify": "real-tasks/task_m11.py",
+    "label": "m11",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=m11"
+  },
+  {
+    "id": "task_m15",
+    "difficulty": "medium",
+    "instruction": "Update my direct deposit employer to Global Dynamics.",
+    "verify": "real-tasks/task_m15.py",
+    "label": "m15",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=m15"
+  },
+  {
+    "id": "task_m17",
+    "difficulty": "medium",
+    "instruction": "Switch PayPal Credit autopay to statement balance.",
+    "verify": "real-tasks/task_m17.py",
+    "label": "m17",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=m17"
+  },
+  {
+    "id": "task_h1",
+    "difficulty": "hard",
+    "instruction": "Convert 200 euros to Japanese yen.",
+    "verify": "real-tasks/task_h1.py",
+    "label": "h1",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h1"
+  },
+  {
+    "id": "task_h5",
+    "difficulty": "hard",
+    "instruction": "Switch my preferred card to the Amex ending in 3001 and set the Citibank checking as my backup.",
+    "verify": "real-tasks/task_h5.py",
+    "label": "h5",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h5"
+  },
+  {
+    "id": "task_h6",
+    "difficulty": "hard",
+    "instruction": "Clean up my payment methods - remove the expired Discover card and the unconfirmed Wells Fargo account.",
+    "verify": "real-tasks/task_h6.py",
+    "label": "h6",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h6"
+  },
+  {
+    "id": "task_h11",
+    "difficulty": "hard",
+    "instruction": "Add Swiss Franc to my wallet and convert $300 into it.",
+    "verify": "real-tasks/task_h11.py",
+    "label": "h11",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h11"
+  },
+  {
+    "id": "task_h13",
+    "difficulty": "hard",
+    "instruction": "Switch currency conversion to card issuer and make the Mastercard ending in 2290 my preferred payment method.",
+    "verify": "real-tasks/task_h13.py",
+    "label": "h13",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h13"
+  },
+  {
+    "id": "task_h17",
+    "difficulty": "hard",
+    "instruction": "Buy myself a $25 Starbucks gift card and redeem 500 rewards points for PayPal balance.",
+    "verify": "real-tasks/task_h17.py",
+    "label": "h17",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h17"
+  },
+  {
+    "id": "task_h23",
+    "difficulty": "hard",
+    "instruction": "Invest $100 in whichever cryptocurrency has given me the best percentage return so far.",
+    "verify": "real-tasks/task_h23.py",
+    "label": "h23",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h23"
+  },
+  {
+    "id": "task_h26",
+    "difficulty": "hard",
+    "instruction": "Send a $50 Amazon gift card to sarah.chen@email.com with 'Thank you!' as the message, and save the Amazon cashback offer.",
+    "verify": "real-tasks/task_h26.py",
+    "label": "h26",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h26"
+  },
+  {
+    "id": "task_h37",
+    "difficulty": "hard",
+    "instruction": "Save the Chipotle offer and buy a $25 DoorDash gift card for yourself.",
+    "verify": "real-tasks/task_h37.py",
+    "label": "h37",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h37"
+  },
+  {
+    "id": "task_h40",
+    "difficulty": "hard",
+    "instruction": "Unsave all currently saved offers and then save Target, Nike, and Amazon instead.",
+    "verify": "real-tasks/task_h40.py",
+    "label": "h40",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h40"
+  },
+  {
+    "id": "task_h41",
+    "difficulty": "hard",
+    "instruction": "Sell $50 of my best-performing cryptocurrency by percentage return, then deposit $50 into savings.",
+    "verify": "real-tasks/task_h41.py",
+    "label": "h41",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h41"
+  },
+  {
+    "id": "task_h46",
+    "difficulty": "hard",
+    "instruction": "Remove the checking account that still hasn't been confirmed.",
+    "verify": "real-tasks/task_h46.py",
+    "label": "h46",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h46"
+  },
+  {
+    "id": "task_h50",
+    "difficulty": "hard",
+    "instruction": "Add Swedish Krona to my currencies, convert $200 to krona, then deposit $200 into savings.",
+    "verify": "real-tasks/task_h50.py",
+    "label": "h50",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h50"
+  },
+  {
+    "id": "task_h54",
+    "difficulty": "hard",
+    "instruction": "Redeem 2,000 reward points for PayPal balance, then buy $10 worth of Solana.",
+    "verify": "real-tasks/task_h54.py",
+    "label": "h54",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h54"
+  },
+  {
+    "id": "task_h66",
+    "difficulty": "hard",
+    "instruction": "Set the confirmed card that expires soonest as my backup payment method.",
+    "verify": "real-tasks/task_h66.py",
+    "label": "h66",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h66"
+  },
+  {
+    "id": "task_h74",
+    "difficulty": "hard",
+    "instruction": "Buy a gift card for the same merchant and same amount as my most recently purchased active gift card, and send it to yourself.",
+    "verify": "real-tasks/task_h74.py",
+    "label": "h74",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h74"
+  },
+  {
+    "id": "task_h80",
+    "difficulty": "hard",
+    "instruction": "Save all available Food & Drink offers, buy a $25 DoorDash gift card for yourself, and switch currency conversion to use my card issuer.",
+    "verify": "real-tasks/task_h80.py",
+    "label": "h80",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h80"
+  },
+  {
+    "id": "task_h83",
+    "difficulty": "hard",
+    "instruction": "Remove every card that is either expired or has a pending confirmation. Then among the remaining cards, find the one whose last used date is the earliest and set it as your preferred payment method.",
+    "verify": "real-tasks/task_h83.py",
+    "label": "h83",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h83"
+  },
+  {
+    "id": "task_h84",
+    "difficulty": "hard",
+    "instruction": "Look at your rewards history and find the single largest points redemption ever made. Buy that same dollar amount of Solana.",
+    "verify": "real-tasks/task_h84.py",
+    "label": "h84",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h84"
+  },
+  {
+    "id": "task_h87",
+    "difficulty": "hard",
+    "instruction": "Find the gift card with the smallest non-zero remaining balance. Redeem that same dollar amount in reward points (100 points per dollar) for PayPal Balance, then deposit that same dollar amount into savings.",
+    "verify": "real-tasks/task_h87.py",
+    "label": "h87",
+    "service": "paypal-my-wallet",
+    "verify_endpoint": "/api/verify?label=h87"
+  },
+  {
+    "id": "task_e4",
+    "difficulty": "easy",
+    "instruction": "Mark the Stellar Education Services invoice as sent.",
+    "verify": "real-tasks/task_e4.py",
+    "label": "e4",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=e4"
+  },
+  {
+    "id": "task_e8",
+    "difficulty": "easy",
+    "instruction": "Approve the Pacific Freight Lines draft credit note.",
+    "verify": "real-tasks/task_e8.py",
+    "label": "e8",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=e8"
+  },
+  {
+    "id": "task_e16",
+    "difficulty": "easy",
+    "instruction": "Change the invoice number prefix to TAX-.",
+    "verify": "real-tasks/task_e16.py",
+    "label": "e16",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=e16"
+  },
+  {
+    "id": "task_e20",
+    "difficulty": "easy",
+    "instruction": "Hide the item code column in invoice settings.",
+    "verify": "real-tasks/task_e20.py",
+    "label": "e20",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=e20"
+  },
+  {
+    "id": "task_m5",
+    "difficulty": "medium",
+    "instruction": "Change the CloudNine Analytics repeating invoice frequency to quarterly.",
+    "verify": "real-tasks/task_m5.py",
+    "label": "m5",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=m5"
+  },
+  {
+    "id": "task_m12",
+    "difficulty": "medium",
+    "instruction": "Delete the 14-day overdue reminder.",
+    "verify": "real-tasks/task_m12.py",
+    "label": "m12",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=m12"
+  },
+  {
+    "id": "task_m18",
+    "difficulty": "medium",
+    "instruction": "Change the credit note prefix to CR-.",
+    "verify": "real-tasks/task_m18.py",
+    "label": "m18",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=m18"
+  },
+  {
+    "id": "task_m20",
+    "difficulty": "medium",
+    "instruction": "Add a title 'Q1 Digital Campaign Work' to the Horizon Media invoice that's awaiting approval.",
+    "verify": "real-tasks/task_m20.py",
+    "label": "m20",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=m20"
+  },
+  {
+    "id": "task_h2",
+    "difficulty": "hard",
+    "instruction": "Create a new invoice for Wellington & Partners in NZD for 16 hours of consulting, and send it.",
+    "verify": "real-tasks/task_h2.py",
+    "label": "h2",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h2"
+  },
+  {
+    "id": "task_h17",
+    "difficulty": "hard",
+    "instruction": "Create a new branding theme called 'Government', disable payment advice on it, and then set it as the default.",
+    "verify": "real-tasks/task_h17.py",
+    "label": "h17",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h17"
+  },
+  {
+    "id": "task_h22",
+    "difficulty": "hard",
+    "instruction": "Remove the partial payment from the Pinnacle Construction invoice and then void it.",
+    "verify": "real-tasks/task_h22.py",
+    "label": "h22",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h22"
+  },
+  {
+    "id": "task_h24",
+    "difficulty": "hard",
+    "instruction": "Change all active repeating invoices to use the Professional Services branding theme.",
+    "verify": "real-tasks/task_h24.py",
+    "label": "h24",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h24"
+  },
+  {
+    "id": "task_h37",
+    "difficulty": "hard",
+    "instruction": "Fully pay the Greenfield Organics February invoice and then void their paid January invoice.",
+    "verify": "real-tasks/task_h37.py",
+    "label": "h37",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h37"
+  },
+  {
+    "id": "task_h45",
+    "difficulty": "hard",
+    "instruction": "Create a new invoice for the Perth-based contact who is both a customer and supplier, for 8 hours of consulting and a data migration service, then submit it for approval.",
+    "verify": "real-tasks/task_h45.py",
+    "label": "h45",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h45"
+  },
+  {
+    "id": "task_h47",
+    "difficulty": "hard",
+    "instruction": "Copy the highest-value paid invoice to a new draft and change the reference to 'REBILL-2026'.",
+    "verify": "real-tasks/task_h47.py",
+    "label": "h47",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h47"
+  },
+  {
+    "id": "task_h50",
+    "difficulty": "hard",
+    "instruction": "Update the Cascade Software repeating invoice: change the frequency to fortnightly, set an end date of September 2026, and change the save-as option to draft.",
+    "verify": "real-tasks/task_h50.py",
+    "label": "h50",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h50"
+  },
+  {
+    "id": "task_h55",
+    "difficulty": "hard",
+    "instruction": "Create a new branding theme called 'NZ Export' with payment terms 'Net 60 days', then create a new invoice for Wellington & Partners in NZD using that theme for 8 hours of consulting.",
+    "verify": "real-tasks/task_h55.py",
+    "label": "h55",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h55"
+  },
+  {
+    "id": "task_h56",
+    "difficulty": "hard",
+    "instruction": "Find the invoice titled 'Cloud Migration Phase 2' and record a $15,000 partial payment on it.",
+    "verify": "real-tasks/task_h56.py",
+    "label": "h56",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h56"
+  },
+  {
+    "id": "task_h64",
+    "difficulty": "hard",
+    "instruction": "Find the repeating invoice that saves generated invoices as drafts, change its frequency to quarterly, and update its reference to 'QUARTERLY-REVIEW'.",
+    "verify": "real-tasks/task_h64.py",
+    "label": "h64",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h64"
+  },
+  {
+    "id": "task_h65",
+    "difficulty": "hard",
+    "instruction": "Decline the least expensive sent quote and accept the most expensive one.",
+    "verify": "real-tasks/task_h65.py",
+    "label": "h65",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h65"
+  },
+  {
+    "id": "task_h71",
+    "difficulty": "hard",
+    "instruction": "Find the invoice with a reference containing 'WO' and record a $1,500 partial payment on it.",
+    "verify": "real-tasks/task_h71.py",
+    "label": "h71",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h71"
+  },
+  {
+    "id": "task_h74",
+    "difficulty": "hard",
+    "instruction": "Create a new invoice for Southern Cross Veterinary for a security audit and 10 hours of consulting, approve it, and send it.",
+    "verify": "real-tasks/task_h74.py",
+    "label": "h74",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h74"
+  },
+  {
+    "id": "task_h75",
+    "difficulty": "hard",
+    "instruction": "Void the Coastal Living Interiors credit note and delete the Pacific Freight Lines draft credit note.",
+    "verify": "real-tasks/task_h75.py",
+    "label": "h75",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h75"
+  },
+  {
+    "id": "task_h79",
+    "difficulty": "hard",
+    "instruction": "Change the invoice prefix to 'AUS-' and the next number to 100, then create a new invoice for CloudNine Analytics for 8 hours of UI/UX design work.",
+    "verify": "real-tasks/task_h79.py",
+    "label": "h79",
+    "service": "xero-invoicing",
+    "verify_endpoint": "/api/verify?label=h79"
+  }
+]
